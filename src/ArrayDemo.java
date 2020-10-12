@@ -13,7 +13,7 @@ public class ArrayDemo {
         System.out.println("length of array="+a.length);
 
         for (int i =0 ;i<a.length;i++)
-        System.out.println(a[i]);
+         System.out.println(a[i]);
 
 
         int[] b = {34,23,23,12,4,78,32,21};
