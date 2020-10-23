@@ -1,6 +1,7 @@
 package pack1;
 
 
+import StaticDemos.StaticMethoddemo;
 import classes.ParentClass;
 
 public class Child extends ParentClass {
@@ -21,9 +22,13 @@ public class Child extends ParentClass {
         ob.iParent = 19;
       //  ob.dispParent();
 
+
+
         ParentClass ob1 = new ParentClass();
 
       //  ob1.iParent = 19;
+
+        StaticMethoddemo.myMethod();
 
     }
 }

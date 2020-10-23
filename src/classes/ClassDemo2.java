@@ -26,6 +26,7 @@ public class ClassDemo2 {
 
     void display()
     {
+
         System.out.println("a="+a);
         System.out.println("d="+d);
         System.out.println("c="+c);

@@ -1,14 +1,19 @@
 package pack1;
 
+import Methods.RetuningValues;
+
+import static StaticDemos.StaticMethoddemo.*;
+
+
 public class Java1 {
 
-    int a1;
+    public  int a1;
    public double d1;
-    private char c1;
-    String str1;
+    public char c1;
+    public String str1;
 
 
-    void display1() {
+    public void display1() {
         System.out.println("a=" + a1);
         System.out.println("d=" + d1);
         System.out.println("c=" + c1);
@@ -24,7 +29,14 @@ public class Java1 {
         ob.c1 ='g';
 
 
+        RetuningValues retuningValues = new RetuningValues();
 
+        Java1 object = retuningValues.getObject();
+
+        object.display1();
+
+
+        myMethod();
 
 
     }
