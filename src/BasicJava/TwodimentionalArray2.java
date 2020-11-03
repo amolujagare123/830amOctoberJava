@@ -1,3 +1,5 @@
+package BasicJava;
+
 public class TwodimentionalArray2 {
 
     public static void main(String[] args) {

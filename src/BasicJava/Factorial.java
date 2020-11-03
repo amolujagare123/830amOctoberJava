@@ -1,3 +1,5 @@
+package BasicJava;
+
 public class Factorial {
 
 

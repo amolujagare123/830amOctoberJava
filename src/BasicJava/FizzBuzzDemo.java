@@ -1,3 +1,5 @@
+package BasicJava;
+
 public class FizzBuzzDemo {
 
     public static void main(String[] args) {

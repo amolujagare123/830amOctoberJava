@@ -1,3 +1,5 @@
+package BasicJava;
+
 public class Splitdemo2 {
 
     public static void main(String[] args) {

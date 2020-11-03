@@ -1,3 +1,5 @@
+package BasicJava;
+
 public class Triangle {
     public static void main(String[] args) {
         int a = 90;
